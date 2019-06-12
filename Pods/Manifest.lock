@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - WeexSDK (0.24.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - SDWebImage
+  - WeexSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - SDWebImage
+    - WeexSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  WeexSDK: 5bd35be9c035c67c84d1ba15712360bb0d0ba6b5
+
+PODFILE CHECKSUM: 6ff8ddb1a6e5cb19303a263347d1039df2389464
+
+COCOAPODS: 1.7.0
